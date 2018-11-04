@@ -18,7 +18,6 @@ notifications:
   email:
     on_failure: change
 after_success: 
-  - npm run coveralls
   - sh ./deploy.sh
 cache:
   directories:
